@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yu.mutidialog.UIFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_green_dark">
+
+    <Button
+        android:id="@+id/id_btn_open_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenPicker"
+        />
+
+    <TextView
+        android:id="@+id/id_tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="@string/tv_result" />
+
+</LinearLayout>
